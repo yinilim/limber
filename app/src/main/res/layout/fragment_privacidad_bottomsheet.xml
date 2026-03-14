@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_bottomsheet">
+
+    <!-- Handle -->
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="12dp"
+        android:background="#BDBDBD" />
+
+    <!-- Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@android:drawable/ic_lock_lock"
+            android:layout_marginEnd="12dp" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Política de Privacidad"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#1A1A2E" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ECOLIM S.A.C. — Versión 1.0"
+                android:textSize="12sp"
+                android:textColor="#9E9E9E" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEEEEE" />
+
+    <!-- Contenido con scroll -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1. INFORMACIÓN QUE RECOPILAMOS"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#1B5E20"
+                android:layout_marginBottom="6dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ECOLIM recopila únicamente la información necesaria para el funcionamiento del sistema:\n\n• Datos de identificación: nombre, correo electrónico y cargo.\n• Registros de residuos: tipo, cantidad, ubicación, fecha y hora.\n• Fotografías adjuntas a los registros de evidencia.\n• Datos de uso de la aplicación para mejorar el servicio."
+                android:textSize="13sp"
+                android:textColor="#444444"
+                android:lineSpacingMultiplier="1.4"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2. USO DE LA INFORMACIÓN"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#1B5E20"
+                android:layout_marginBottom="6dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="La información recopilada se utiliza exclusivamente para:\n\n• Gestionar y auditar el proceso de recolección de residuos.\n• Generar reportes operativos para la empresa.\n• Cumplir con las normativas ambientales vigentes (NTP 900.058).\n• Mejorar la experiencia del usuario dentro de la aplicación."
+                android:textSize="13sp"
+                android:textColor="#444444"
+                android:lineSpacingMultiplier="1.4"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3. ALMACENAMIENTO Y SEGURIDAD"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#1B5E20"
+                android:layout_marginBottom="6dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Los datos se almacenan de forma local en el dispositivo mediante SQLite con cifrado. Las fotografías se guardan en el almacenamiento privado de la app y no son accesibles desde otras aplicaciones. Implementamos medidas de seguridad como autenticación biométrica para proteger su información."
+                android:textSize="13sp"
+                android:textColor="#444444"
+                android:lineSpacingMultiplier="1.4"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4. COMPARTICIÓN DE DATOS"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#1B5E20"
+                android:layout_marginBottom="6dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ECOLIM S.A.C. NO vende ni comparte su información personal con terceros. Los datos únicamente pueden ser compartidos con autoridades regulatorias cuando sea requerido por ley o con el área de supervisión interna de la empresa."
+                android:textSize="13sp"
+                android:textColor="#444444"
+                android:lineSpacingMultiplier="1.4"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5. PERMISOS DE LA APLICACIÓN"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#1B5E20"
+                android:layout_marginBottom="6dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="La app solicita los siguientes permisos:\n\n📷 Cámara: Para tomar fotos de evidencia de residuos.\n🖼️ Galería: Para adjuntar imágenes existentes.\n👆 Biometría: Para autenticación segura al ingresar.\n💾 Almacenamiento: Para guardar registros y fotos localmente."
+                android:textSize="13sp"
+                android:textColor="#444444"
+                android:lineSpacingMultiplier="1.4"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6. SUS DERECHOS"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#1B5E20"
+                android:layout_marginBottom="6dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Usted tiene derecho a:\n\n• Acceder a sus datos personales almacenados.\n• Solicitar la corrección de datos incorrectos.\n• Solicitar la eliminación de su cuenta y datos.\n• Conocer cómo se utiliza su información."
+                android:textSize="13sp"
+                android:textColor="#444444"
+                android:lineSpacingMultiplier="1.4"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7. CONTACTO"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="#1B5E20"
+                android:layout_marginBottom="6dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Para ejercer sus derechos o consultas sobre privacidad:\n\n🔒 sirsmith.limas@gmail.com\n📞 +51 900018973\n📍 Huánuco, Perú"
+                android:textSize="13sp"
+                android:textColor="#444444"
+                android:lineSpacingMultiplier="1.4"
+                android:layout_marginBottom="8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#EEEEEE" />
+
+    <!-- Botón aceptar -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_aceptar_privacidad"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_margin="20dp"
+        android:text="Entendido"
+        android:textStyle="bold"
+        app:backgroundTint="#2E7D32"
+        app:cornerRadius="12dp"
+        xmlns:app="http://schemas.android.com/apk/res-auto"/>
+
+</LinearLayout>

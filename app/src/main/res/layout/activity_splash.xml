@@ -11,8 +11,8 @@
         android:id="@+id/img_logo"
         android:layout_width="130dp"
         android:layout_height="130dp"
-        android:src="@drawable/ic_ecolim_logo"
-        android:contentDescription="Logo ECOLIM" />
+        android:contentDescription="Logo ECOLIM"
+        android:src="@android:drawable/ic_menu_delete" />
 
     <TextView
         android:layout_width="wrap_content"

@@ -177,7 +177,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Para consultas relacionadas con estos términos, puede contactarnos en:\n\n📧 sirsmith.limas@gmail.com\n📞 +51 900018973\n📍 Huánuco, Perú"
+                android:text="Para consultas relacionadas con estos términos, puede contactarnos en:\n\n📧 limberyiniervaldiviacuzque@gmail.com\n📞 +51 901641083\n📍 Huánuco, Perú"
                 android:textSize="13sp"
                 android:textColor="#444444"
                 android:lineSpacingMultiplier="1.4"
